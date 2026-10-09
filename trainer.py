@@ -6,7 +6,7 @@ import numpy as np
 import torch
 
 from meter import Meter
-from Models.mscnn_bilstm_attn import (
+from mscnn_bilstm_attn import (
     ECGStageA2PermutationInvariantAmbiguityCosineDisMSNet,
 )
 
